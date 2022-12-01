@@ -1,0 +1,33 @@
+.navbar {
+    background-color: navy;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .navbar img {
+    width: 100px;
+    height: 100px;
+  }
+  .multicolortext {
+    background-image: linear-gradient(to left, white, yellow, goldenrod);
+    -webkit-background-clip: text;
+    font-size: larger;
+    font-weight: bold;
+    color: transparent;
+    font-family: "Lucida Calligraphy";
+  }
+  ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 5px;
+    color: white;
+  }
+  ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+  }
