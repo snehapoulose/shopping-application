@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title= "Smart Shopping"
-  logo = '../assets/shoplogo.jpg'
+  logo = '../assets/images/shoplogo.jpg'
   constructor() { }
 
   ngOnInit(): void {

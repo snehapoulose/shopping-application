@@ -1,0 +1,4 @@
+<img src = "{{shopbodyLogo}}" class="body-img">
+<input type="text" (input)="onUpdateItem($event)">
+<button (click)="onSelectedItem">Add Item</button>
+<p *ngIf="serverCreated">Item is  created , Item Name is : {{shopItem}} </p>
